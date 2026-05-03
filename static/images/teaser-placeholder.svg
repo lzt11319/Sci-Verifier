@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sci-Verifier project image placeholder</title>
+  <desc id="desc">Placeholder for the future Sci-Verifier overview figure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="28%" r="55%">
+      <stop offset="0" stop-color="#93c5fd" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#93c5fd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#glow)"/>
+  <g fill="none" stroke="#bfdbfe" stroke-opacity="0.7" stroke-width="3">
+    <rect x="145" y="190" width="230" height="110" rx="24"/>
+    <rect x="485" y="190" width="230" height="110" rx="24"/>
+    <rect x="825" y="190" width="230" height="110" rx="24"/>
+    <path d="M375 245h110M715 245h110" stroke-linecap="round"/>
+    <rect x="315" y="410" width="570" height="92" rx="24" stroke-opacity="0.5"/>
+    <path d="M600 300v110" stroke-linecap="round" stroke-opacity="0.5"/>
+  </g>
+  <g fill="#e0f2fe" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="260" y="252" font-size="26" font-weight="700">Input</text>
+    <text x="600" y="252" font-size="26" font-weight="700">Verify</text>
+    <text x="940" y="252" font-size="26" font-weight="700">Evidence</text>
+    <text x="600" y="466" font-size="28" font-weight="800">Sci-Verifier Overview Figure</text>
+  </g>
+  <text x="600" y="570" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="24" text-anchor="middle">Placeholder — replace with the final project main figure</text>
+</svg>
