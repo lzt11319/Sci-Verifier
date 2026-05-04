@@ -6,11 +6,11 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="description" content="SciVeriRub co-evolves Verifiers and Rubricators to evaluate scientific image generation with structured rubrics, explanations, edit suggestions, and scalable benchmarks.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <meta name="keywords" content="scientific image generation, verifier, rubricator, multimodal evaluation, visual language models, reinforcement learning, benchmark, scientific diagrams">
   <!-- TODO: List all authors -->
   <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
   <meta name="robots" content="index, follow">
@@ -21,16 +21,16 @@
   <!-- TODO: Replace with your institution or lab name -->
   <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
+  <meta property="og:title" content="SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta property="og:description" content="SciVeriRub co-evolves Verifiers and Rubricators to evaluate scientific image generation with structured rubrics, explanations, edit suggestions, and scalable benchmarks.">
   <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
   <!-- TODO: Create a 1200x630px preview image and update path -->
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="og:image:alt" content="SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation - Research Preview">
   <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
   <meta property="article:author" content="FIRST_AUTHOR_NAME">
   <meta property="article:section" content="Research">
@@ -44,15 +44,15 @@
   <!-- TODO: Replace with first author's Twitter handle -->
   <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
   <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
+  <meta name="twitter:title" content="SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation">
   <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="twitter:description" content="SciVeriRub co-evolves Verifiers and Rubricators to evaluate scientific image generation with structured rubrics, explanations, edit suggestions, and scalable benchmarks.">
   <!-- TODO: Same as social preview image above -->
   <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:image:alt" content="SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_title" content="SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation">
   <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
   <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
   <meta name="citation_publication_date" content="2024">
@@ -74,11 +74,12 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/png" href="static/images/scut-favicon.png">
+  <link rel="icon" type="image/x-icon" href="static/images/scut-favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/scut-favicon.png">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -114,8 +115,8 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation",
+    "description": "SciVeriRub co-evolves Verifiers and Rubricators to evaluate scientific image generation with structured rubrics, explanations, edit suggestions, and scalable benchmarks.",
     "author": [
       {
         "@type": "Person",
@@ -141,8 +142,8 @@
     },
     "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
     "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "keywords": ["scientific image generation", "verifier", "rubricator", "multimodal evaluation", "visual language models", "reinforcement learning", "benchmark"],
+    "abstract": "Scientific image generation requires more than visual plausibility: generated diagrams must satisfy fine-grained domain constraints such as symbolic relations, structural consistency, factual knowledge, and multi-step reasoning requirements. Existing text-image metrics and preference-based evaluation struggle to capture such semantic correctness, while general-purpose VLM judges are costly and not optimized for scalable scientific image assessment. We introduce SciVeriRub, a framework that co-evolves Verifiers and Rubricators for scientific image generation. The Rubricator decomposes each generation or editing instruction into structured evaluation points, while the Verifier predicts correctness and provides explanations and edit suggestions. We construct a 74K-scale scientific image verification dataset and a balanced benchmark covering instruction following, knowledge, and reasoning. Based on Qwen3-VL-8B-Instruct, we train Verifier and Rubricator models with supervised fine-tuning and reinforcement learning. For Verifier training, we propose an outcome-anchored Adaptive Reward Control scheme that prioritizes answer correctness and uses rubric coverage only as conditional shaping through dual reward channels. For Rubricator training, Verifier rollouts are used to identify effective rubric points whose coverage correlates with improved answer correctness. Experiments show that our 8B Verifier approaches strong proprietary VLM judges on answer and explanation metrics, while our Rubricator achieves strong recall, non-hallucination rate, and structural F1. Furthermore, by using the Verifier’s judgments and edit suggestions as feedback in a verification-guided image editing loop, SciVeriRub can guide iterative refinement and improve the quality of generated scientific images.",
     "citation": "BIBTEX_CITATION_HERE",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -170,7 +171,7 @@
     "@type": "Organization",
     "name": "INSTITUTION_OR_LAB_NAME",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "logo": "static/images/scut-favicon.png",
     "sameAs": [
       "https://twitter.com/YOUR_TWITTER_HANDLE",
       "https://github.com/YOUR_GITHUB_USERNAME"
@@ -201,32 +202,19 @@
         </button>
       </div>
       <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+        <a href="https://cvpr.thecvf.com/virtual/2026/poster/40038" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <h5>EduDiag: A Benchmark for Educational Diagnostic Reasoning with Error Tracing and Correction on Large Multimodal Models</h5>
+            <p>A benchmark for reconstructing erroneous reasoning chains and generating corrective feedback in multimodal educational scenarios.</p>
+            <span class="work-venue">CVPR 2026 Poster</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+        <a href="https://arxiv.org/abs/2505.22304" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>CADReview: Automatically Reviewing CAD Programs with Error Detection and Correction</h5>
+            <p>ReCAD reviews CAD programs by detecting and correcting errors through code-vision alignment and geometric reasoning.</p>
+            <span class="work-venue">ACL 2025 Oral</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -237,74 +225,63 @@
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
-      <div class="container is-max-desktop">
+      <div class="container is-max-widescreen project-content-container">
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">SciVeriRub: Co-Evolving Verifiers and Rubricators for Scientific Image Generation</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block">Jiali Chen<sup>*</sup>,</span>
+              <span class="author-block">Zhengteng Lin<sup>*</sup>,</span>
+              <span class="author-block">Zuqi Wang,</span>
+              <span class="author-block">Shirong Lin,</span>
+              <span class="author-block">Xi Yu,</span>
+              <span class="author-block">Yi Cai</span>
+            </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block">South China University of Technology<br>Preparing for submission to EMNLP 2026</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
+                        <button class="button is-normal is-rounded is-dark" disabled>
+                          <span class="icon">
+                            <i class="ai ai-arxiv"></i>
+                          </span>
+                          <span>arXiv Coming Soon</span>
+                        </button>
                       </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                      <span class="link-block">
+                        <a href="https://huggingface.co/datasets/wzq2005/SciGen_Verifier_bench" target="_blank"
+                          class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                            <i class="fas fa-database"></i>
+                          </span>
+                          <span>Verifier Bench</span>
+                        </a>
+                      </span>
+                      <span class="link-block">
+                        <a href="https://huggingface.co/datasets/Forest314/SciGen_Rubric_bench" target="_blank"
+                          class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                            <i class="fas fa-database"></i>
+                          </span>
+                          <span>Rubric Bench</span>
+                        </a>
+                      </span>
+                      <span class="link-block">
+                        <button class="button is-normal is-rounded is-dark" disabled>
+                          <span class="icon">
+                            <i class="fas fa-cube"></i>
+                          </span>
+                          <span>Model Coming Soon</span>
+                        </button>
+                      </span>
             </div>
           </div>
         </div>
@@ -316,14 +293,14 @@
 
 <!-- Teaser image -->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen project-content-container">
     <div class="hero-body">
       <div class="publication-banner">
-        <!-- TODO: Replace with the Sci-Verifier project overview image. -->
-        <img src="static/images/teaser-placeholder.svg" alt="Sci-Verifier project overview placeholder" loading="lazy">
+        <img src="static/images/main_figure.png" alt="SciVeriRub overview of scientific image generation tasks, Verifier, Rubricator, and verification-guided improvement loop" loading="lazy">
       </div>
       <h2 class="subtitle has-text-centered">
-        Placeholder for the Sci-Verifier project overview figure.
+        <strong>Overview of SciVeriRub:</strong> task coverage, Verifier and Rubricator pipelines,<br>
+        and the verification-guided improvement loop.
       </h2>
     </div>
   </div>
@@ -332,14 +309,22 @@
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen project-content-container">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            <strong>Scientific image generation requires more than visual plausibility</strong>: generated diagrams must satisfy fine-grained domain constraints such as symbolic relations, structural consistency, factual knowledge, and multi-step reasoning requirements. Existing text-image metrics and preference-based evaluation struggle to capture such semantic correctness, while general-purpose VLM judges are costly and not optimized for scalable scientific image assessment.
+          </p>
+          <p>
+            We introduce <strong>SciVeriRub</strong>, a framework that <strong>co-evolves Verifiers and Rubricators</strong> for scientific image generation. The Rubricator decomposes each generation or editing instruction into structured evaluation points, while the Verifier predicts correctness and provides explanations and edit suggestions.
+          </p>
+          <p>
+            We construct a <strong>74K-scale scientific image verification dataset</strong> and a balanced benchmark covering instruction following, knowledge, and reasoning. Based on Qwen3-VL-8B-Instruct, we train Verifier and Rubricator models with supervised fine-tuning and reinforcement learning. For Verifier training, we propose an <strong>outcome-anchored Adaptive Reward Control</strong> scheme that prioritizes answer correctness and uses rubric coverage only as conditional shaping through dual reward channels. For Rubricator training, Verifier rollouts are used to identify effective rubric points whose coverage correlates with improved answer correctness.
+          </p>
+          <p>
+            Experiments show that our <strong>8B Verifier approaches strong proprietary VLM judges</strong> on answer and explanation metrics, while our Rubricator achieves strong recall, non-hallucination rate, and structural F1. Furthermore, by using the Verifier’s judgments and edit suggestions as feedback in a verification-guided image editing loop, SciVeriRub can guide iterative refinement and improve the quality of generated scientific images.
           </p>
         </div>
       </div>
@@ -349,63 +334,54 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+<!-- Performance results -->
+<section class="section" id="performance">
+  <div class="container is-max-widescreen project-content-container">
+    <h2 class="title is-3 has-text-centered">Dataset and Results</h2>
+    <div class="content has-text-centered">
+      <p>
+        Dataset composition first, followed by Verifier and Rubricator evaluation results.
+      </p>
     </div>
+    <figure class="image">
+      <a class="performance-figure-link" href="static/images/source_distribution_figure_card_hd.png" target="_blank" rel="noopener" title="Open full-size source distribution figure">
+        <img
+          src="static/images/source_distribution_figure_card_hd.png"
+          alt="SciVeriRub verifier data source distribution with representative examples"
+          loading="lazy"
+          style="width: 100%; height: auto;">
+      </a>
+    </figure>
+    <p class="performance-figure-caption has-text-centered">
+      <strong>Verifier data coverage.</strong> The training set contains <strong>74,067</strong> labeled verifier samples from <strong>9 sources</strong>, spanning <strong>Instruction-Following, Knowledge, and Reasoning</strong> with representative examples from each source.
+    </p>
+    <figure class="image performance-figure-secondary">
+      <a class="performance-figure-link" href="static/images/performance_macro.png" target="_blank" rel="noopener" title="Open full-size verifier performance figure">
+        <img
+          src="static/images/performance_macro.png"
+          alt="Macro-averaged verifier performance comparison across Answer, Explanation, and Edit metrics"
+          loading="lazy"
+          style="width: 100%; height: auto;">
+      </a>
+    </figure>
+    <p class="performance-figure-caption has-text-centered">
+      <strong>Verifier main results.</strong> With scores <strong>normalized to Gemini-3-Flash</strong>, RL improves our 8B Verifier over SFT-only on <strong>Answer, Explanation, and Edit</strong>, especially bringing Answer and Explanation close to strong proprietary judges.
+    </p>
+    <figure class="image performance-figure-secondary">
+      <a class="performance-figure-link" href="static/images/performance_rubric.png" target="_blank" rel="noopener" title="Open full-size rubric performance figure">
+        <img
+          src="static/images/performance_rubric.png"
+          alt="Rubricator performance comparison across RubricRecall, RubricAccuracy, and StructuralF1 metrics"
+          loading="lazy"
+          style="width: 100%; height: auto;">
+      </a>
+    </figure>
+    <p class="performance-figure-caption has-text-centered">
+      <strong>Rubricator main results.</strong> RL also improves the Rubricator, yielding the strongest overall <strong>coverage, hallucination control, and structural quality</strong> with cleaner and more reliable rubric outputs.
+    </p>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- End performance results -->
 
 
 
@@ -414,7 +390,7 @@
 
 <!-- Citation -->
 <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
+  <div class="container is-max-widescreen project-content-container content has-text-centered">
     <h2 class="title">Citation</h2>
     <p>Citation coming soon.</p>
   </div>
